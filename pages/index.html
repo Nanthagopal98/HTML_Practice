@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>Website.com</title>
+        <!--Title Not Working-->
+    </head>
+    <body>
+        <h1>Feeds</h1>
+        <p>Wikipedia is hosted by the <b>Wikimedia</b> Foundation, a non-profit <u>organization</u> 
+            that also hosts a range of other <i>projects</i>.
+            <br><br> 
+            Save your favorite <a href = "https://www.wikipedia.org/">articles</a> to read offline, sync your 
+            <a href = "https://www.wikipedia.org/" target = "blank">reading</a> lists across devices 
+            and customize your reading experience with the official Wikipedia app.
+        </p>
+    
+    <!--<br> - to create space -->
+    <!--<b> - to make it bold -->
+    <!--<u> - underline -->
+    <!--<i> - italic fornt -->
+    <!--<a href = "link"> - add link -->
+    <!--<a href = "link" target = "blank"> - open link in new tab -->
+    
+    <!-- list-->
+    <ul><!-- unordered list-->
+        <li><a href = "https://www.wikipedia.org/">Nantha</a></li>
+        <li>Ela</li>
+        <li>Hari</li>
+    </ul>
+    <ol><!-- ordered list-->
+        <li>Nantha</li>
+        <li>Ela</li>
+        <li>Hari</li>
+    </ol>
+
+    <!-- table-->
+    <table>
+        <head>
+            <tr>
+                <th> S.No</th>
+                <th> Name</th>
+                <th> Contact</th>
+            </tr>
+        </head>
+        <body>
+            <tr>
+                <td> 1 </td>   
+                <td> Nantha </td> 
+                <td> 8978455612 </td> 
+            </tr>
+            <tr>
+                <td> 2 </td>   
+                <td> Ela </td> 
+                <td> 8978455612 </td> 
+            </tr>
+            <tr>
+                <td> 3 </td>   
+                <td> Hari </td> 
+                <td> 8978455612 </td> 
+            </tr>
+        </body>
+    </table>
+
+<br><br>
+<!-- Form-->
+<form action = "index.php" method = "post">
+    <div>
+    <label>First Name </label>  
+    <input type = "text" name = "fname" placeholder = "First Name">
+    </div>
+    <br>
+    <div>
+    <label>Last Name </label>  
+    <input type = "text" name = "lname" placeholder = "Last Name">
+    </div>
+    <br>
+    <div>
+        <label>Password</label>  
+        <input type = "password" name = "pword" placeholder = "Password">
+    </div>
+    <br>
+    <div>
+        <label>Contact</label>  
+        <input type = "number" name = "pnumber" placeholder = " Phone">
+    </div>
+    <br>
+    <div>
+        <label>Gender</label>  
+        <select>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>    
+        </select>
+    </div>
+    <br>
+    <div>
+        <label>DOB</label>  
+        <input type = "date" name = "dates" placeholder = " dates">
+    </div>
+    <br>
+    <div>
+        <lable>Message</lable>  
+        <textarea></textarea>
+    </div> 
+    <input type="submit" name="submit" value="submit">
+</form>
+<a href = "img.jpg">
+<img src="img.jpg" width="200" alt="My Image" height="150">
+</a>
+</body>
+</html>

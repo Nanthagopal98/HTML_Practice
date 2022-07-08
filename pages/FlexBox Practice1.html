@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="uft-8">
+        <link rel="link Icon" href="../assets/linkIcon.jpg">
+        <title>Flex Box Practice</title>
+        <style>
+            body{
+                display: inline-flex;
+
+                }
+            .navication {
+                flex-direction: row ;
+                background: blueviolet;
+                color: black;
+                padding: 10px;
+                text-align: center;
+                flex: 1;
+            }
+            .mainContainer{
+                flex-direction: column ;
+                background: rgb(72, 16, 203);
+                color: black;
+                flex: 7;
+                padding: 3px;
+            }
+            .head{
+                flex-direction: row;
+                background: orange;
+                text-align: center;
+                padding: 10px;
+                margin: 3px;
+            }
+            .footer{
+                flex-direction: row;
+                background: orange;
+                text-align: center;
+                padding: 3px;
+                margin: 3px;
+            }
+            .leftContainer{
+                flex-direction: column;
+                background: rgb(82, 165, 96);
+                text-align: center;
+                padding: 3px;
+                flex: 1;
+                margin: 3px;
+            }
+            .mainContaineritem{
+                display: flex;
+            }
+            .contentContainer{
+                flex: 5;
+            }
+            article{
+                background: pink;
+                padding: 10px;
+                margin: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navication"><h2>Navication Bar</h2></nav>
+        <div class="mainContainer">
+            <header class="head"><h1>Fleb Box</h1></header>
+            <div class="mainContaineritem">
+                <section class="contentContainer">
+                    <article >
+                        <h2>First Article</h2>
+                        <p>
+                            BridgeLabz Fellowship program is a job Guarantee program - which means
+                            that once you are enrolled you have a guaranteed top tech job which is
+                            guaranteed by BridgeLabz. It is a 16 weeks program. Post Completion of
+                            program you will get tech jobs with starting salary from Rs. 3 lacs up
+                            to Rs. 6 lacs p.a.
+                        </p>
+                    </article>
+                    <article >
+                        <h2>First Article</h2>
+                        <p>
+                            Each batch will be assigned a mentor who will interact with you every
+                            day and also guide and groom you through this program. Every mentor is
+                            a practising engineer and has industry experience of 10 years+. We also
+                            have a team of councillors who are experienced to help you out any time
+                            you face problems throughout the program.
+                        </p>
+                    </article>
+                    <article >
+                        <h2>First Article</h2>
+                        <p>
+                            On successful completion of the 16 weeks Fellowship program which guarantees
+                            you a tech job with top product and tech companies with starting salaries from
+                            Rs.3 lacs p.a upto Rs. 6 lacs p.a. Job role will be standard tech roles,
+                            full-stack development role in any of the open-source technologies
+                            (as per your performance in the fellowship program)
+                        </p>
+                    </article>
+                </section>
+                <leftSideBar class="leftContainer"><h3>Left Bar</h3></leftSideBar>
+            </div>
+            <footer class="footer"><h3>Footer</h3></footer>
+        </div>      
+    </body>
+</html>

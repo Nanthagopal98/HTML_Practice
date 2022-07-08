@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="uft-8">
+        <link rel="Link icon" href="../assets/linkIcon.jpg">
+        <title> FleXBox Practice </title>
+        <style>
+            body{padding: 2em;}
+            .headerContainer{
+                display: flex;
+                flex-flow: column wrap;
+                text-align: center;
+                background: rgb(51, 39, 212);
+                color: black;
+                font-weight: bold;
+                font-size: 50px;
+                padding: 20px;
+            }
+            .footerContainer{
+                display: flex;
+                flex-flow: column wrap;
+                text-align: center;
+                background: rgb(86, 179, 86);
+                color: black;
+                font-size: 20px;
+                padding: 10px;
+            }
+            .mainContainer{
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .mainContaineritem{
+                order: 2;
+                text-align: left;
+                background: rgb(48, 83, 172);
+                flex: 3;
+            }
+            article{
+                padding: 10px;
+                margin: 10px;
+                background: rgb(9, 206, 206);
+                margin: 5px;
+            }
+            .sideBar{
+                flex: 1;
+
+            }
+            .leftSideBar{
+                order: 1;
+                text-align: center;
+                background: gold;
+            }
+            .rightSideBar{   
+                order: 3;
+                text-align: center;                           
+                background: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="headerContainer"> FlexBox Sample</header>
+        <div class="mainContainer">
+            <section class="mainContaineritem">
+                <article >
+                    <h2>First Article</h2>
+                    <p>
+                        BridgeLabz Fellowship program is a job Guarantee program - which means
+                        that once you are enrolled you have a guaranteed top tech job which is
+                        guaranteed by BridgeLabz. It is a 16 weeks program. Post Completion of
+                        program you will get tech jobs with starting salary from Rs. 3 lacs up
+                        to Rs. 6 lacs p.a.
+                    </p>
+                </article>
+                <article >
+                    <h2>First Article</h2>
+                    <p>
+                        Each batch will be assigned a mentor who will interact with you every
+                        day and also guide and groom you through this program. Every mentor is
+                        a practising engineer and has industry experience of 10 years+. We also
+                        have a team of councillors who are experienced to help you out any time
+                        you face problems throughout the program.
+                    </p>
+                </article>
+                <article >
+                    <h2>First Article</h2>
+                    <p>
+                        On successful completion of the 16 weeks Fellowship program which guarantees
+                        you a tech job with top product and tech companies with starting salaries from
+                        Rs.3 lacs p.a upto Rs. 6 lacs p.a. Job role will be standard tech roles,
+                        full-stack development role in any of the open-source technologies
+                        (as per your performance in the fellowship program)
+                    </p>
+                </article>
+            </section>
+            <sideBar class="sideBar leftSideBar"><p>Left Side Bar</p></sideBar>
+            <sideBar class="sideBar rightSideBar"><p>Right Side Bar</p></sideBar>
+        </div>
+        <footer class="footerContainer">Footer</footer>
+    </body>
+</html>
