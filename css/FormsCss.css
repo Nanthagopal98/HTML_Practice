@@ -1,0 +1,54 @@
+
+body{
+    width: 100%;
+    max-width: 100vh;
+    margin: auto;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+form{
+    border: 2px solid rgb(231, 186, 186);
+    max-width: 100%;
+    background-color: aqua;
+    padding-top: 0px;
+    margin: 0vh;
+    border-radius: 10px;
+    align-items: center;
+}
+.headerContainer{
+    background-color: rgb(117, 212, 212);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 10px 0px;
+}
+div{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+label{
+    width: 30%;
+    margin-left: 10px;
+}
+input{
+    flex: auto;
+    margin-right: 10px;
+}
+.salary-output{
+    margin-right: 10px;
+}
+footer{  
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+button{
+    background-color: rgb(210, 136, 136);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgb(240, 248, 255);
+    font-size: 20px;
+}
